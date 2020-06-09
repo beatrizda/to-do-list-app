@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C5855EE248EB6FE002570DD /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5855ED248EB6FE002570DD /* ToDoTableViewController.swift */; };
+		3C5855F0248EB795002570DD /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5855EF248EB795002570DD /* ToDo.swift */; };
 		3CF49208248E95F800EE7B90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF49207248E95F800EE7B90 /* AppDelegate.swift */; };
 		3CF4920A248E95F800EE7B90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF49209248E95F800EE7B90 /* SceneDelegate.swift */; };
-		3CF4920C248E95F800EE7B90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4920B248E95F800EE7B90 /* ViewController.swift */; };
 		3CF4920F248E95F800EE7B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4920D248E95F800EE7B90 /* Main.storyboard */; };
 		3CF49212248E95F800EE7B90 /* to_do_list_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CF49210248E95F800EE7B90 /* to_do_list_app.xcdatamodeld */; };
 		3CF49214248E963000EE7B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF49213248E963000EE7B90 /* Assets.xcassets */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C5855ED248EB6FE002570DD /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		3C5855EF248EB795002570DD /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		3CF49204248E95F700EE7B90 /* to do list app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "to do list app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF49207248E95F800EE7B90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF49209248E95F800EE7B90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CF4920B248E95F800EE7B90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CF4920E248E95F800EE7B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CF49211248E95F800EE7B90 /* to_do_list_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = to_do_list_app.xcdatamodel; sourceTree = "<group>"; };
 		3CF49213248E963000EE7B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		3CF491FB248E95F700EE7B90 = {
 			isa = PBXGroup;
 			children = (
+				3C5855ED248EB6FE002570DD /* ToDoTableViewController.swift */,
 				3CF49206248E95F800EE7B90 /* to do list app */,
 				3CF49220248E963200EE7B90 /* to do list appTests */,
 				3CF4922B248E963200EE7B90 /* to do list appUITests */,
@@ -103,8 +106,8 @@
 			children = (
 				3CF49207248E95F800EE7B90 /* AppDelegate.swift */,
 				3CF49209248E95F800EE7B90 /* SceneDelegate.swift */,
-				3CF4920B248E95F800EE7B90 /* ViewController.swift */,
 				3CF4920D248E95F800EE7B90 /* Main.storyboard */,
+				3C5855EF248EB795002570DD /* ToDo.swift */,
 				3CF49213248E963000EE7B90 /* Assets.xcassets */,
 				3CF49215248E963000EE7B90 /* LaunchScreen.storyboard */,
 				3CF49218248E963000EE7B90 /* Info.plist */,
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF4920C248E95F800EE7B90 /* ViewController.swift in Sources */,
 				3CF49208248E95F800EE7B90 /* AppDelegate.swift in Sources */,
+				3C5855F0248EB795002570DD /* ToDo.swift in Sources */,
+				3C5855EE248EB6FE002570DD /* ToDoTableViewController.swift in Sources */,
 				3CF4920A248E95F800EE7B90 /* SceneDelegate.swift in Sources */,
 				3CF49212248E95F800EE7B90 /* to_do_list_app.xcdatamodeld in Sources */,
 			);
